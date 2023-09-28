@@ -1,0 +1,22 @@
+[
+    {
+        "id":"#presentation",
+        "title" : "Présentation"
+    },
+    {
+        "id": "#realisations",
+        "title" : "Réalisations"
+    },
+    {
+        "id": "#activities",
+        "title" : "Activités"
+    },
+    {
+        "id": "#skills",
+        "title" : "Compétences"
+    },
+    {
+        "id": "#contact",
+        "title" : "Contact"
+    }
+]
