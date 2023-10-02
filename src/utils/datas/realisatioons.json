@@ -1,0 +1,115 @@
+[
+    {
+        "id":0,
+        "title" : "React-Redux project",
+        "lienCode" : "https://github.com/SiamSael/ArgentBank-website.git",
+        "img" : "/images/p11_interfacemin.jpg",
+        "description" : "Implémenter le front-end d'une application bancaire avec React et Redux", 
+        "missions" : 
+        [
+            {
+                "description": "Création de l’application web complète et responsive avec React"
+            },
+            {
+                "description": "Utilisation Redux pour gérer le state de l'ensemble de l'application." 
+            },
+            {
+                "description": "Connexion/Deconnection. L'utilisateur ne peut voir les informations relatives à son propre profil qu'après s'être connecté avec succès. Il peut modifier son pseudo"
+            },
+            {
+                "description": "Documentation décrivant les routes API"
+            },
+            {
+                "description": "Application du concept Green code"
+            }
+        ]
+    }, 
+    {
+        "id":1,
+        "title" : "SEO Project",
+        "lienCode" : "https://github.com/SiamSael/P9_SEO_Nina_Carducci.git",
+        "gitHubPages": "https://siamsael.github.io/P9_SEO_Nina_Carducci/",
+        "img" : "/images/P9min.jpg",
+        "description" : "Optimiser le référencement d'un site de photographe", 
+        "missions" : 
+        [
+            {
+                "description": "Optimisation globale du site tant sur les performances que sur le SEO"
+            },
+            {
+                "description": "Mise en place le référencement local" 
+            },
+            {
+                "description": "Ajout des metas pour les réseaux sociaux."
+            },
+            {
+                "description": "Modifications liées à l’accessibilité du site."
+            },
+            {
+                "description": "Production d'un rapport d’optimisation présentant toutes vos actions et leur impact."
+            }
+        ]
+    },
+    {
+        "id":2,
+        "title" : "Full React app from scratch",
+        "lienCode" : "https://github.com/SiamSael/Kasa.git",
+        "gitHubPages": "https://siamsael.github.io/Kasa/",
+        "img" : "/images/P8min.jpg",
+        "description" : "Création d'une application web de location immobilière avec React", 
+        "missions" : 
+        [
+            {
+                "description": "Initialisation d'une application avec Create React App"
+            },
+            {
+                "description": "Développement des éléments de l'interface du site web responsive grâce à des composants React et avec Sass" 
+            },
+            {
+                "description": "Configuration de la navigation entre les pages de l'application avec React Router"
+            },
+            {
+                "description": "Mise en œuvre des animations CSS."
+            }
+        ]
+    }, 
+    {
+        "id":3,
+        "title" : "Full vannilla.js site",
+        "lienCode" : "https://github.com/SiamSael/Portfolio-architecte-sophie-bluel.git",
+        "gitHubPages": "https://siamsael.github.io/Portfolio-architecte-sophie-bluel/FrontEnd/",
+        "img" : "/images/P6min.jpg",
+        "description" : "Création d'une page web dynamique avec JavaScript", 
+        "missions" : 
+        [
+            {
+                "description": "Développement de la page de présentation des travaux de l'architecte à  partir de l'existant"
+            },
+            {
+                "description": "Création de la page de connexion de l'administrateur du site from scratch" 
+            },
+            {
+                "description": "Création de la modale permettant d'uploader de nouveaux médias from scratch."
+            }
+        ]
+    }, 
+    {
+        "id":4,
+        "title" : "Full-stack Project",
+        "lien" : "https://ime-finder.com/en/?view=genius/",
+        "img" : "",
+        "description" : "Participation en tant développeur full-Stack au projet d'Ideal Meetings & Event : client dans l'évennementiel", 
+        "missions" : 
+        [
+            {
+                "description": "Developpement de fonctionnalités back-end avec Php natif basé sur un design Pattern MVC"
+            },
+            {
+                "description": "Créaction d'interface utilisateur pour leurs clients et fournisseurs avec Javascript et bootstrap 5" 
+            },
+            {
+                "description": "Créaction et gestion de tables avec dans leur base de données MySQL"
+            }
+        ]
+    }
+]

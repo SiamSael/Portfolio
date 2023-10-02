@@ -1,0 +1,32 @@
+
+.description {
+    &__presentation {
+        display: flex;
+        flex: 1 1;
+        flex-direction: column;
+        align-items: center;
+        line-height: 32px;
+        letter-spacing: 1px;
+        word-spacing: 2px;
+        font-size: 16px;
+        padding: 56px;
+        font-weight: 500;
+        text-align: justify;
+        text-indent: 10%;
+        border-left: solid;
+        border-color: $primary-color-element;
+        @media (max-width: 1020px) {
+            line-height: 24px;
+            font-size: 12px;
+            text-align: start;
+            text-indent: 0%;
+        }
+        @media (max-width: 670px) {
+            border-left: none;
+            letter-spacing: 0px;
+            word-spacing: 0px;
+            padding: 56px 0px;
+
+        }
+    }
+}

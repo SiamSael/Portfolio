@@ -5,10 +5,10 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin: 48px 0px;
+    margin: 40px 0px;
     @media (max-width: 670px) {
-        width: 86%;
-        height: 48px;
+        height: auto;
+        margin: auto;
     }
     &__logo {
         height: 175px;
@@ -16,6 +16,8 @@
         border-radius: 50%;
         object-fit: cover;
         margin: 8px;
+        z-index: 1000;
+        position: relative;
         @media (max-width: 670px) {
             width: 88px;
             height: 88px;
@@ -25,9 +27,13 @@
         &--ul {
             list-style-type:none;
             display: inline-flex;
+            @media (max-width: 1020px) {
+                display: flex;
+                flex-wrap: wrap;
+            }
         }
         &--li > a {
-            font-size: 18px;
+            font-size: 20px;
             font-weight: 500;
             color: $primary-color-element;
             margin: 16px;
@@ -36,9 +42,12 @@
             cursor: pointer;
             text-decoration: none;
             white-space: nowrap;
+            @media (max-width: 1020px) {
+                display: flex;
+                margin: 4px;
+            }
             @media (max-width: 670px) {
                 font-size: 12px;
-                padding-left: 24px;
             }
         }
         &--li > a:hover{

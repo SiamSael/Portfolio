@@ -3,10 +3,8 @@ import Nav from '../../components/Nav'
 
 const Header = () => {
     return (
-        <header className="header" id="accueil">
-            <div>
-                <a href="#accueil"><img className="header__logo" src={ memin } alt="logo de kasa" /></a>
-            </div>
+        <header className="header">
+            <a href="#accueil"><img className="header__logo" src={ memin } alt="Ambre Bidault" /></a>
             <Nav />
         </header>
     )

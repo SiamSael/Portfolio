@@ -4,7 +4,7 @@ import NavElt from '../NavElt'
 const NavList = () => {
     return (
         <ul className="header__nav--ul">
-            {(navCategories).map(navCategory => NavElt(navCategory))}
+            {(navCategories).map((navCategory, id)=> NavElt(navCategory, id))}
         </ul>
     )
 }
