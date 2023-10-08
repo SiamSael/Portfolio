@@ -2,6 +2,7 @@
     {
         "id":0,
         "title" : "React-Redux project",
+        "alt" : "Argent-Bank",
         "lienCode" : "https://github.com/SiamSael/ArgentBank-website.git",
         "img" : "/images/p11_interfacemin.jpg",
         "description" : "Implémenter le front-end d'une application bancaire avec React et Redux", 
@@ -27,6 +28,7 @@
     {
         "id":1,
         "title" : "SEO Project",
+        "alt" : "professionnal photographer's portfolio",
         "lienCode" : "https://github.com/SiamSael/P9_SEO_Nina_Carducci.git",
         "gitHubPages": "https://siamsael.github.io/P9_SEO_Nina_Carducci/",
         "img" : "/images/P9min.jpg",
@@ -53,6 +55,7 @@
     {
         "id":2,
         "title" : "Full React app from scratch",
+        "alt" : "Kasa",
         "lienCode" : "https://github.com/SiamSael/Kasa.git",
         "gitHubPages": "https://siamsael.github.io/Kasa/",
         "img" : "/images/P8min.jpg",
@@ -76,6 +79,7 @@
     {
         "id":3,
         "title" : "Full vannilla.js site",
+        "alt" : "professionnal architect's portfolio",
         "lienCode" : "https://github.com/SiamSael/Portfolio-architecte-sophie-bluel.git",
         "gitHubPages": "https://siamsael.github.io/Portfolio-architecte-sophie-bluel/FrontEnd/",
         "img" : "/images/P6min.jpg",
@@ -96,6 +100,7 @@
     {
         "id":4,
         "title" : "Full-stack Project",
+        "alt" : "Ideal Meetings & Events site",
         "lien" : "https://ime-finder.com/en/?view=genius/",
         "img" : "",
         "description" : "Participation en tant développeur full-Stack au projet d'Ideal Meetings & Event : client dans l'évennementiel", 

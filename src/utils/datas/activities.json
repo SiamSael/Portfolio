@@ -1,0 +1,30 @@
+[
+    {
+        "id":0,
+        "title" : "Développement web",
+        "alt" : "dev icon",
+        "img" : "/images/dev.jpg",
+        "description" : "Développer de nouvelle fonctionnalités ergonomiques et adaptées aux besoins clients est ma priorité."
+    }, 
+    {
+        "id":1,
+        "title" : "Référencement et SEO",
+        "alt" : "professionnal photographer's portfolio",
+        "img" : "/images/seo.jpg",
+        "description" : "Propulser le référencement d'un site client et améliorer ses performances est un investissement toujours payant!"
+    },
+    {
+        "id":2,
+        "title" : "Maintenance et débug",
+        "alt" : "Kasa",
+        "img" : "/images/debug.jpg",
+        "description" : "Optimiser, Nettoyer, Réparer, Débuguer : Telle est la voie du programmeur"
+    }, 
+    {
+        "id":3,
+        "title" : "Tests",
+        "alt" : "professionnal architect's portfolio",
+        "img" : "/images/test.jpg",
+        "description" : "Parce qu'écrire ses tests avant le code et faire ces tests devrait être le credo du développeur je pratique le test d'application!"
+    }
+]

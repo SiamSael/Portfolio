@@ -17,7 +17,7 @@
         object-fit: cover;
         margin: 8px;
         z-index: 1000;
-        position: relative;
+        position: sticky;
         @media (max-width: 670px) {
             width: 88px;
             height: 88px;
@@ -25,8 +25,10 @@
     }
     &__nav {
         &--ul {
+            margin-right: 64px;
             list-style-type:none;
             display: inline-flex;
+            justify-content: center;
             @media (max-width: 1020px) {
                 display: flex;
                 flex-wrap: wrap;
@@ -57,5 +59,29 @@
             color: $secondary-color-element !important;
             @include btn-shadow-darker;
         }
+    }
+    &__ref {
+        display: flex;
+        padding: 4px;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        position: fixed;
+        right: 0.5%;
+        z-index: 1000;
+        margin-right: 8px;
+        text-decoration: none;
+        background-color: $primary-color;
+        color: $primary-color-element;
+    }
+}
+
+.fa-arrow-up {
+    display: flex;
+    font-size: 18px;
+    margin: 0 auto;
+    align-items: center;
+    @media (max-width: 670px) {
+        font-size: 12px;
     }
 }

@@ -11,14 +11,13 @@
         font-size: 16px;
         padding: 56px;
         font-weight: 500;
-        text-align: justify;
+        text-align: start;
         text-indent: 10%;
         border-left: solid;
         border-color: $primary-color-element;
         @media (max-width: 1020px) {
             line-height: 24px;
             font-size: 12px;
-            text-align: start;
             text-indent: 0%;
         }
         @media (max-width: 670px) {

@@ -3,6 +3,7 @@ import BannerDatas from "../../utils/datas/banner.json"
 import Presentation from "../../components/Presentation"
 import PresentationDatas from "../../utils/datas/presentation.json"
 import Realisations from "../../components/Realisation"
+import Activities from "../../components/Activities"
 
 
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
             <Banner {...BannerDatas} /> 
             <Presentation {...PresentationDatas} />
             <Realisations />
+            <Activities />
         </main>
     )
 }

@@ -8,12 +8,12 @@ const Realisations = () => {
             <Masonry
                 breakpointCols={2}
                 className="my-masonry-grid"
-                columnClassName='my-masonry-grid_column'>
+                columnClassName='my-masonry-grid__column'>
                 {
                     ((RealisationsDatas).map((RealisationDatas, id) =>
-                        <div className="my-masonry-grid_div" key={id}>
-                            <img src={RealisationDatas.img} alt={RealisationDatas.title}/>
-                            <p>{RealisationDatas.title}</p>
+                        <div className="my-masonry-grid__div" key={id}>
+                            <img className='my-masonry-grid__img' src={RealisationDatas.img} alt={RealisationDatas.alt}/>
+                            <p className='my-masonry-grid__p'>{RealisationDatas.title}</p>
                         </div>
                     ))                
                 }
