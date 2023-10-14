@@ -1,4 +1,3 @@
-//import ActivityDescription from "../ActivityDescription"
 import React, { useState } from "react";
 
 const Activity = (activity, id) => {

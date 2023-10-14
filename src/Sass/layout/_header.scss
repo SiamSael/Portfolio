@@ -57,7 +57,7 @@
             border-radius: 25px;
             background-color: $primary-color-element;
             color: $secondary-color-element !important;
-            @include btn-shadow-darker;
+            @include boxShadow;
         }
     }
     &__ref {

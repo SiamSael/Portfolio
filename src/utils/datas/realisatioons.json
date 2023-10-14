@@ -102,7 +102,7 @@
         "title" : "Full-stack Project",
         "alt" : "Ideal Meetings & Events site",
         "lien" : "https://ime-finder.com/en/?view=genius/",
-        "img" : "",
+        "img" : "/images/ime.jpg",
         "description" : "Participation en tant développeur full-Stack au projet d'Ideal Meetings & Event : client dans l'évennementiel", 
         "missions" : 
         [

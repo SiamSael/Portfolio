@@ -17,7 +17,7 @@
         color: $primary-color-element;
         font-weight: 700;
         @include text-shadow-title;
-        @media (max-width: 1020px) {
+        @media (max-width: 670px) {
             font-size: 16px;
             margin-top: 0px;
         }

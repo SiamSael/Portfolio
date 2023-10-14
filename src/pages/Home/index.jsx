@@ -4,6 +4,8 @@ import Presentation from "../../components/Presentation"
 import PresentationDatas from "../../utils/datas/presentation.json"
 import Realisations from "../../components/Realisation"
 import Activities from "../../components/Activities"
+import Contact from "../../components/Contact"
+import Competences from "../../components/Competences"
 
 
 const Home = () => {
@@ -13,6 +15,8 @@ const Home = () => {
             <Presentation {...PresentationDatas} />
             <Realisations />
             <Activities />
+            <Competences />
+            <Contact />
         </main>
     )
 }

@@ -1,0 +1,52 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 32px;
+    width: fit-content;
+    padding: 32px;
+    border-radius: 25px;
+    @include boxShadow;
+    background: #F8F9F9;
+    @media (max-width: 670px) {
+        width: unset;
+    }
+    &__label {
+        margin-top: 16px;
+        margin-bottom: 8px;
+        @media (max-width: 670px) {
+            font-size: 12px;
+        }
+    }
+    &__input {
+        height: 30px;
+        @include field;
+    }
+}
+
+textarea {
+    @include field;
+}
+
+form:has(:focus-visible) input {
+    border: 1px solid $primary-color-element;
+}
+
+input[type="submit"] {
+    background-color: $primary-color-element;
+    border-radius: 25px;
+    color: $primary-color;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 8px 24px ;
+    height: 56px;
+    margin: 0 auto;
+    margin-top: 32px;
+    width: fit-content;
+    cursor: pointer;
+    @media (max-width: 670px) {
+        width: unset;
+        font-size: 12px;
+    }
+}

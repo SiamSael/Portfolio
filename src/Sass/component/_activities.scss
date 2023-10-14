@@ -5,18 +5,13 @@
     flex-wrap: wrap;
     &__activity {
         margin: 16px;
-        position: relative;
+        margin-bottom: 32px;
         &--img {
-            height: 250px;
-            width: 250px;
-            border-radius: 50%;
-            object-fit: cover;;
+            @include bubbleImgActivity;
+            @include boxShadow;
         }
         &--imgHide {
-            height: 250px;
-            width: 250px;
-            border-radius: 50%;
-            object-fit: cover;
+            @include bubbleImgActivity;
             filter: brightness(5%);
         }
         &--title {
@@ -39,6 +34,12 @@
             text-align: center;
             text-overflow: ellipsis;
             text-wrap: wrap;
+            @media (max-width: 670px) {
+                font-size: 12px;
+                transform: translateX(18px) translateY(-140px);
+                height: 160px;
+                width: 160px;
+            }
         }
         &--descriptionHide {
             display: none;
