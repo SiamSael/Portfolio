@@ -1,18 +1,33 @@
+.progressBar {
+    margin-top: 16px;
+    width: 220px;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: stretch;
+    overflow: hidden;
+    border-radius: 40px;
+    transform: translateX(10px);
+    border: solid  $secondary-color-element;
+    @include boxShadow;
+    position: relative;
+    @media (max-width: 670px) {
+        width: 160px;
+    }
+    &__content {
+        width: 0%;
+        background: rgb(131,58,180);
+        background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    }
+    &__percent {
+        display: flex;
+        font-weight: 600;
+        color: $background-color-footer;
+        font-size: 20px;
+        position: absolute;
+        left: 44%;
+        top: 5%;
+    }
+}
 
-.animation {
-    animation: spin 400ms linear both;
-    cursor: pointer;
-}
-.animation-reverse {
-    animation: spin-reverse 400ms linear both;
-    cursor: pointer;
-}
-
-@keyframes spin {
-    0% { transform: rotate(0deg);}
-    100% { transform: rotate(-180deg);}
-}
-@keyframes spin-reverse {
-    0% { transform: rotate(-180deg);}
-    100% { transform: rotate(0deg);}
-}

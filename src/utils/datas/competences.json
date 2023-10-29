@@ -2,51 +2,61 @@
     {
         "id":0,
         "alt" : "html icon",
-        "img" : "/images/html.jpg"
+        "img" : "/images/html.jpg",
+        "value" : 98
     }, 
     {
         "id":1,
         "alt" : "css icon",
-        "img" : "/images/css.jpg"
+        "img" : "/images/css.jpg",
+        "value" : 90
     },
     {
         "id":2,
         "alt" : "sass icon",
-        "img" : "/images/sass.jpg"
+        "img" : "/images/sass.jpg",
+        "value" : 80
     },
     {
         "id":3,
         "alt" : "bootstrap icon",
-        "img" : "/images/bootstrap.jpg"
+        "img" : "/images/bootstrap.jpg",
+        "value" : 75
     },
     {
         "id":4,
         "alt" : "js icon",
-        "img" : "/images/js.jpg"
+        "img" : "/images/js.jpg",
+        "value" : 70
     }, 
     {
         "id":5,
         "alt" : "react icon",
-        "img" : "/images/react.jpg"
+        "img" : "/images/react.jpg",
+        "value" : 65
     },
     {
         "id":6,
         "alt" : "redux icon",
-        "img" : "/images/redux.jpg"
+        "img" : "/images/redux.jpg",
+        "value" : 50
     },
     {
         "id":7,
         "alt" : "php icon",
-        "img" : "/images/php.jpg"
+        "img" : "/images/php.jpg",
+        "value" : 50
     },
     {
         "id":8,
         "alt" : "mySql icon",
-        "img" : "/images/mysql.jpg"
+        "img" : "/images/mysql.jpg",
+        "value" : 40
     },
     {
         "id":9,
         "alt" : "gitHub icon",
-        "img" : "/images/gitHub.jpg"
+        "img" : "/images/gitHub.jpg",
+        "value" : 60
     }
 ]

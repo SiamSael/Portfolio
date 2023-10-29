@@ -6,6 +6,7 @@
     &__activity {
         margin: 16px;
         margin-bottom: 32px;
+        position: relative;
         &--img {
             @include bubbleImgActivity;
             @include boxShadow;

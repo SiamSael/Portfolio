@@ -1,13 +1,14 @@
 import Activity from "../Activity"
 import ActivitiesDatas from "../../utils/datas/activities.json"
+import { motion } from 'framer-motion'
 
 const Activities = () => {
     return (
         <section id='activities'>
             <h2 className='section__title'>Activités</h2>
-            <div className="activities">
+            <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration: 0.8}} className="activities">
                 {(ActivitiesDatas).map((activity, id)=> Activity(activity, id))}
-            </div>
+            </motion.div>
         </section>
     )
 }
