@@ -13,7 +13,8 @@ const Banner = (bannerDatas) => {
             stiffness: 100,
             restDelta: 0.001
           }
-        }}className="banner" id="accueil">
+        }}
+        className="banner" id="accueil">
             <img className="banner__img" src={ bannerDatas.img } alt="paysage"/>
             <h1 className="banner__title">{ bannerDatas.title }</h1>
         </motion.section>

@@ -9,7 +9,7 @@ const ProgressBar = ({value}) => {
     useEffect(()=> {
         if (progressText.current != null) {
             animate(0, value, {
-                duration : 2, 
+                duration : 2.5, 
                 onUpdate : (currentValue) => {
                     progressText.current.textContent = currentValue.toFixed(0)
                 }
@@ -20,7 +20,7 @@ const ProgressBar = ({value}) => {
     return (
         <div ref={ref}>
             <div className="progressBar">
-                <motion.div className="progressBar__content" animate={ isInView ? {width: `${value}%`} : {}} transition={{duration: 2}}></motion.div>
+                <motion.div className="progressBar__content" animate={ isInView ? {width: `${value}%`} : {}} transition={{duration: 2.5}}></motion.div>
                 <motion.div className="progressBar__percent"><p ref={progressText}>0</p><p>%</p></motion.div>
             </div>
         </div>
