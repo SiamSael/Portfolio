@@ -19,7 +19,7 @@ const Realisations = () => {
                 {
                     ((RealisationsDatas).map((RealisationDatas, id) =>
                         <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration: 0.8}} className="my-masonry-grid__div" key={id} onClick={() => openModal(RealisationDatas)}>
-                            <img className='my-masonry-grid__img' src={RealisationDatas.img} alt={RealisationDatas.alt}/>
+                            <img className='my-masonry-grid__img' src={process.env.PUBLIC_URL + RealisationDatas.img} alt={RealisationDatas.alt}/>
                             <p className='my-masonry-grid__p'>{RealisationDatas.title}</p>
                         </motion.div>
                     ))                

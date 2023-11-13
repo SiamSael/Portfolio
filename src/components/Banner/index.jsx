@@ -15,7 +15,7 @@ const Banner = (bannerDatas) => {
           }
         }}
         className="banner" id="accueil">
-            <img className="banner__img" src={ bannerDatas.img } alt="paysage"/>
+            <img className="banner__img" src={ process.env.PUBLIC_URL + bannerDatas.img } alt="my working space"/>
             <h1 className="banner__title">{ bannerDatas.title }</h1>
         </motion.section>
     )

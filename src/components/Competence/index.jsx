@@ -5,7 +5,7 @@ const Competence = (competence, id) => {
 
     return (
         <div className="activities__activity" key={id}>
-            <img className="activities__activity--img" src={competence.img} alt={competence.alt}/>
+            <img className="activities__activity--img" src={process.env.PUBLIC_URL + competence.img} alt={competence.alt}/>
             <ProgressBar value ={value}/>
         </div>
     )
