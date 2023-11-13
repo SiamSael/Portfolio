@@ -27,7 +27,7 @@ const Realisation = (RealisationDatas) => {
 
     function closeModal() {
         toggleOverlay();
-        const modal = document.querySelector('.modal');
+        const modal = document.querySelector('.modal').parentElement;
         modal.remove();
     }
 
