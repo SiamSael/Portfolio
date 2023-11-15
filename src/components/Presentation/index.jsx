@@ -3,7 +3,7 @@ import memin from '../../images/memin.jpg'
 
 const Presentation = (PresentationDatas) => {
     return (
-        <section className="section" id="presentation">
+        <section className="section" id="presentation" itemType = "https://schema.org/PostalAddress">
             <div className="presentation">
                 <h2 className="section__title">{ PresentationDatas.title }</h2>
                 <motion.h3 initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration: 0.8}}  className="section__title--subtitle" itemProp = "name" > Ambre Bidault </motion.h3>
@@ -12,7 +12,7 @@ const Presentation = (PresentationDatas) => {
             <motion.div 
                 initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration: 0.8}} className="description__presentation"
                 itemScope itemType="http://schema.org/LocalBusiness">
-                <div className="description__reflocal" itemProp = "address" itemType = "https://schema.org/PostalAddress" >   
+                <div className="description__reflocal" itemProp = "address">   
                     <p>{ PresentationDatas.description }</p><br></br>
                     <span itemProp = "streetAddress"> Adresse : {PresentationDatas.address}, </span>
                     <span itemProp = "postalCode" > {PresentationDatas.postalCode} </span> 
