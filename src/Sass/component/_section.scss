@@ -9,7 +9,6 @@
     &__title {
         display: flex;
         flex-direction: column;
-        flex: 1 1;
         align-self: center;
         text-align: center;
         font-size: 32px;
@@ -21,5 +20,30 @@
             font-size: 16px;
             margin-top: 0px;
         }
-    }
+        &--subtitle {
+            align-self: center;
+            text-align: center;
+            font-size: 24px;
+            margin: 20px;
+            color: $primary-color-element;
+            font-weight: 700;
+            @include text-shadow-title;
+            @media (max-width: 670px) {
+                font-size: 14px;
+                margin-top: 0px;
+            }
+        }
+        &--photoPresentation {
+            margin: 20px;
+            align-self: center;
+            align-items: center;
+            object-fit: cover;
+            height: fit-content;
+            width: 180px;
+            border-radius: 100px;
+            @media (max-width: 670px) {
+                flex-direction: column;
+            }
+        }
+    }  
 }

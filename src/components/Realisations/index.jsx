@@ -3,29 +3,6 @@ import RealisationsDatas from '../../utils/datas/realisations.json'
 import Realisation from '../Realisation';
 
 const Realisations = () => {
-/*
-    const [showModal, setShowModal] = useState(false);
-    return (
-      <>
-        <button onClick={() => setShowModal(true)}>
-          Show modal using a portal
-        </button>
-        {showModal && createPortal(
-          <Realisation onClose={() => setShowModal(false)} />,
-          document.body
-        )}
-      </>
-    );
-
-/* 
-    //if (showModal) {
-        const modalNodeParent = document.getElementById('root')
-        createPortal(
-            <Realisation onClose={() => setShowModal(false)} {...RealisationsDatas}/>,
-            modalNodeParent
-        )
-    //}
-*/
     return (
         <section id='realisations'>
             <h2 className='section__title'>Réalisations</h2>

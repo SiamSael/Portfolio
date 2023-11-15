@@ -5,6 +5,7 @@
         flex: 1 1;
         flex-direction: column;
         align-items: center;
+        align-self: center;
         line-height: 32px;
         letter-spacing: 1px;
         word-spacing: 2px;
@@ -28,4 +29,10 @@
         }
 
     }
+}
+
+.presentation {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1;
 }

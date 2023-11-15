@@ -1,8 +1,7 @@
 import { motion } from 'framer-motion'
 
-export default function ModalRealisation(props) {
+export default function ModalRealisation({RealisationDatas, onClose}) {
 
-    const {RealisationDatas, onClose} = props
     console.log('ok1', RealisationDatas, onClose)
     return (
         <motion.section initial={{opacity: 0}} animate={{opacity:1}} transition={{duration : 1}} className="modal">
