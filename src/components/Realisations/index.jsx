@@ -1,14 +1,31 @@
 import Masonry from 'react-masonry-css'
 import RealisationsDatas from '../../utils/datas/realisations.json'
-import { motion } from 'framer-motion'
 import Realisation from '../Realisation';
-import { render } from '@testing-library/react';
 
 const Realisations = () => {
+/*
+    const [showModal, setShowModal] = useState(false);
+    return (
+      <>
+        <button onClick={() => setShowModal(true)}>
+          Show modal using a portal
+        </button>
+        {showModal && createPortal(
+          <Realisation onClose={() => setShowModal(false)} />,
+          document.body
+        )}
+      </>
+    );
 
-    function openModal(RealisationDatas) {
-        render(<Realisation {...RealisationDatas}/>);
-    }
+/* 
+    //if (showModal) {
+        const modalNodeParent = document.getElementById('root')
+        createPortal(
+            <Realisation onClose={() => setShowModal(false)} {...RealisationsDatas}/>,
+            modalNodeParent
+        )
+    //}
+*/
     return (
         <section id='realisations'>
             <h2 className='section__title'>Réalisations</h2>
@@ -18,10 +35,7 @@ const Realisations = () => {
                 columnClassName='my-masonry-grid__column'>
                 {
                     ((RealisationsDatas).map((RealisationDatas, id) =>
-                        <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration: 0.8}} className="my-masonry-grid__div" key={id} onClick={() => openModal(RealisationDatas)}>
-                            <img className='my-masonry-grid__img' src={process.env.PUBLIC_URL + RealisationDatas.img} alt={RealisationDatas.alt}/>
-                            <p className='my-masonry-grid__p'>{RealisationDatas.title}</p>
-                        </motion.div>
+                        <Realisation key={id} {...RealisationDatas} />
                     ))                
                 }
             </Masonry>
