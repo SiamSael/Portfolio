@@ -1,8 +1,7 @@
 import { motion } from 'framer-motion'
 
-export default function ModalRealisation({RealisationDatas, onClose}) {
+const ModalRealisation = ({RealisationDatas, onClose}) => {
 
-    console.log('ok1', RealisationDatas, onClose)
     return (
         <motion.section initial={{opacity: 0}} animate={{opacity:1}} transition={{duration : 1}} className="modal">
             <span className='modal__close'><i className="fa-solid fa-xmark" onClick={onClose}></i></span>
@@ -24,3 +23,5 @@ export default function ModalRealisation({RealisationDatas, onClose}) {
         </motion.section>
     )
 }
+
+export default ModalRealisation

@@ -3,7 +3,7 @@
     flex-direction: row;
     margin: 56px;
     padding: 32px;
-    @media (max-width: 670px) {
+    @media (max-width: 799px) {
         flex-direction: column;
     }
     &__title {
@@ -39,8 +39,8 @@
             align-items: center;
             object-fit: cover;
             height: fit-content;
-            width: 180px;
-            border-radius: 100px;
+            width: 150px;
+            border-radius: 50px;
             @media (max-width: 670px) {
                 flex-direction: column;
             }
